@@ -64,8 +64,8 @@ public class ConnectFolder {
 	        	logger.debug("x: " + file.getName() + " last modified: " + new Date(file.getLastModified()) + " length: " + file.getContentLength());
 			}
 	        
-	    } catch (Exception e) {
-	        logger.error(e.getMessage());
+	    } catch (Exception ex) {
+	        logger.error(ex.getMessage());
 	    }
 	}
 	
